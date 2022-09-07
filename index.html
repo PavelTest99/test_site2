@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="Резюме, фронтенд, html, css">
+    <meta name="description" content="Это мое резюме в формате html">
+    <link rel="stylesheet" href="css/my_styles.css">
+    <title>Мое резюме</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="info">
+
+            <img src="files/my_photo.jpg" alt="Прибыткин Павел" class="avatar">
+
+            <div class="info-text">
+
+                <h1>Прибыткин Павел</h1>
+
+                <p>Я программист, работаю в фирме ООО "Рога и копыта".</p>
+
+                <p>Я люблю программировать.</p>
+
+                <h4>Список социальных сетей:</h4>
+
+                <a href="https://yandex.ru/" target="_blank">Яндекс</a>
+                |
+                <a href="https://www.google.com/" target="_blank">Гугл</a>
+
+                <div class="card bg-green">
+                    <h2>Мои хобби</h2>
+                    <ol class="list">
+                        <li>Работа</li>
+                        <li>Образование</li>
+                    </ol>
+                </div>
+
+                <div class="card bg-red">
+                    <h2>Опыт работы</h2>
+                    <table class="table">
+                        <tbody>
+                            <tr>
+                                <td>Рога и копыта</td>
+                                <td>Дойщик коров</td>
+                                <td>2015</td>
+                            </tr>
+                            <tr>
+                                <td>Копыта и рога</td>
+                                <td>Дойщик коров</td>
+                                <td>2016</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <form class="form">
+                <h3>Связаться со мной</h3>
+                <div class="form-row"> 
+                    <div class="form-group">
+                        <label for="text">Введите имя:</label>
+                        <input type="text" id="name" placeholder="Введите имя">
+                    </div>
+    
+                    <div class="form-group">
+                        <label for="email">Введите email:</label>
+                        <input type="email" id="email" placeholder="Введите email">
+                    </div>
+                </div>               
+                <div class="form-group">
+                    <label for="message">Введите cообщение:</label>
+                    <textarea id="message" cols="25" rows="5" placeholder="Введите ваше сообщение"></textarea>
+                </div>
+                <input class="btn" type="submit" value="Отправить!">
+            </form>
+        </div>
+
+</body>
+
+</html>
